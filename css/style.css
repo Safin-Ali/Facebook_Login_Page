@@ -1,0 +1,127 @@
+/* ---------------------------
+    Variable Of Color Strat
+---------------------------- */
+:root {
+  --white: #fff;
+  --green: #42B72A;
+  --blue: #1877F2;
+}
+
+/* ---------------------------
+    Variable Of Color End
+---------------------------- */
+
+/* ---------------------------
+      Universal Design Start
+---------------------------- */
+html,
+body {
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+input:focus {
+  outline: #008cff 0.5px solid;
+}
+
+/* ---------------------------
+      Universal Design End
+---------------------------- */
+
+/* ---------------------------
+  For Center All Item Start
+---------------------------- */
+
+.page-center {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------------------------
+  For Center All Item End
+---------------------------- */
+
+/* ---------------------------
+  Facebook logo & Head Start
+---------------------------- */
+
+.fb_text {
+  margin-bottom: 9.5rem;
+}
+
+.fb_text p {
+  font-size: 2rem;
+}
+
+.fb_text img {
+  max-height: 120px;
+  margin-left: -1.2rem;
+}
+
+/* ---------------------------
+  Facebook logo & Head End
+---------------------------- */
+
+.login-page {
+  max-width: 75%;
+  box-shadow: 0px 5px 12px 4px #0000001a;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background: var(--white);
+}
+
+/* ---------------------------
+      Login Area Start
+---------------------------- */
+
+.input_login {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 10px;
+  border: 1px solid #dddfe2;
+  border-radius: 8px;
+}
+
+.inputbutton {
+  color: var(--white);
+  background: var(--blue);
+  border: none;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.inputbutton:hover {
+  background: #166FE5;
+}
+
+.createAccount {
+  margin: 2.5rem auto;
+}
+
+.createAccount a {
+  background: var(--green);
+  padding: 0.8rem 15px;
+  border-radius: 5px;
+  color: var(--white);
+  font-weight: bold;
+}
+
+.createAccount a:hover {
+  background: #36A420;
+  text-decoration: none !important;
+}
+
+/* ---------------------------
+      Login Area End
+---------------------------- */
+
+.brand-block {
+  font-size: 1.1rem;
+  margin: 1.5rem auto;
+}
