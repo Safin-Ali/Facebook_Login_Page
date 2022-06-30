@@ -1,11 +1,4 @@
-@media only screen and (min-width:300px) and (max-width:767px) {
-    .fb_text{
-        margin-bottom: 0;
-        max-width: 75%;
-        text-align: center;
-      }
-      .fb_text p {
-        font-size: 1.4rem;
-        font-weight: 400;
-      }
+@media only screen and (min-width:300px) and (max-width:767px){
+.fb_text{margin-bottom:0;max-width:75%;text-align:center}
+.fb_text p{font-size:1.4rem;font-weight:400}
 }
